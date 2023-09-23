@@ -6,6 +6,5 @@ fn main() {
     let ready: i32 = READY_AMOUNT;
     println!("Firing {} out of my {} missles...", ready, missles);
     missles = missles - ready;
-    
     println!("Left with {} missles: ", missles);
 }
